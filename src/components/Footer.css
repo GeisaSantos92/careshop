@@ -1,0 +1,64 @@
+/*Rodape*/
+.container-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383934;
+    color: silver;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  
+}
+
+.rodape .col{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+ul{
+    text-align: center;
+    color: silver;
+    padding-left: 0 !important;
+}
+ul a {
+    text-decoration: none;
+    color: silver;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.call-btn{
+    border: 1px solid silver;
+    color: silver;
+    background-color: transparent;
+}
+
+
+
+.call{
+    display: flex;
+    gap: 20px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;   
+}
+
+.icons a{
+    color: silver;
+}
+
+@media(max-width: 991px){
+    .rodape .row{
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .call span{
+        width: 165px;
+    }
+}

@@ -1,0 +1,126 @@
+.banner-about{
+    background-image: url('../../assets/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    color: white;
+    z-index: 1;
+    margin-bottom: 2rem;
+}
+
+.banner-about::before{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+
+  .banner-about p{
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .banner-about h1{
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .txt-about p{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .team{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .team .col img{
+    width: 100px;
+    object-position: top;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .team .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+
+  }
+
+  .team .col h5{
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .team .col span{
+    font-size: 15px;
+    color: #424040;
+  }
+
+  .advantages-grid{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .advantages-grid .col h6{
+    font-weight: 600;
+  }
+
+  .advantages-grid .col p{
+    font-size: 14px;
+  }
+
+  .advantages{
+    background-image: url('../../assets/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    color: black;
+    z-index: 1;
+  }
+
+  .advantages::before{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(243, 243, 243, 243);
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+
+  @media(max-width: 425px){
+    .title-advantages hr{    
+            width: 54px;        
+    }
+  }
